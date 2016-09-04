@@ -6,8 +6,8 @@ import 'package:args/args.dart';
 
 import "dart:io";
 
-const String name = 'trmstaclppb';
-const String version = '0.0.1';
+const String name = 'trmstaclpp';
+const String version = '0.2.0';
 
 main(List<String> arguments) async {
   ArgParser parser = _createArgsParser();

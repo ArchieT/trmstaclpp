@@ -63,8 +63,8 @@ packages:
     version: "1.0.0"
   trmsta:
     description:
-      path: "../trmsta"
-      relative: true
-    source: path
+      name: trmsta
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.2"
 sdk: ">=1.14.0 <2.0.0"
