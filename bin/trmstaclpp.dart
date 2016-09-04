@@ -7,7 +7,7 @@ import 'package:args/args.dart';
 import "dart:io";
 
 const String name = 'trmstaclpp';
-const String version = '0.2.0';
+const String version = '0.2.1';
 
 main(List<String> arguments) async {
   ArgParser parser = _createArgsParser();
@@ -70,7 +70,7 @@ main(List<String> arguments) async {
   buffer.write(" SUMA   | ");
   bool scalingsum = sumrow+sumwol>summaxbar;
   int ourmaxbar = scalingsum?summaxbar:sumrow+sumwol;
-  int sumscale = scalingsum?summaxbar/(sumrow+sumwol):1;
+  int sumscale = scalingsum?summaxbar~/(sumrow+sumwol):1;
   int lproc = sumrow*sumscale;
     buffer.write("▉"*lproc);
     buffer.write("▒"*(ourmaxbar-lproc));

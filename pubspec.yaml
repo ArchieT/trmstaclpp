@@ -1,5 +1,5 @@
 name: trmstaclpp
-version: 0.2.0
+version: 0.2.1
 description: Command-line pretty-printing TRM station info
 author: "Michał Krzysztof Feiler <archiet@platinum.edu.pl>"
 homepage: "https://github.com/ArchieT/trmstaclpp"
