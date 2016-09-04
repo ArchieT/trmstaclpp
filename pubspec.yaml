@@ -6,6 +6,6 @@ homepage: "https://github.com/ArchieT/trmstaclpp"
 dependencies:
         trmsta: ">=0.1.2 <0.2.0"
         args: ">=0.13.5 <0.14.0"
-dependency_overrides:
-        trmsta:
-                path: ../trmsta/
+#dependency_overrides:
+#        trmsta:
+#                path: ../trmsta/
